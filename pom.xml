@@ -6,14 +6,14 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
-    <groupId>com.github.igor-suhorukov</groupId>
+    <groupId>com.github.crashvb</groupId>
     <artifactId>chromedriver</artifactId>
     <version>2.35-SNAPSHOT</version>
     <description>Package chromedriver as maven artifact</description>
     <scm>
-        <url>https://github.com/igor-suhorukov/chromedriver.git</url>
-        <connection>scm:git:git://github.com/igor-suhorukov/chromedriver.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/igor-suhorukov/chromedriver.git</developerConnection>
+        <url>https://github.com/crashvb/chromedriver.git</url>
+        <connection>scm:git:git://github.com/crashvb/chromedriver.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/crashvb/chromedriver.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     <developers>
@@ -21,6 +21,10 @@
             <name>Igor Sukhorukov</name>
             <url>http://suhorukov.blogspot.ru</url>
             <email>igor.suhorukov[skip this] at gmail.com</email>
+        </developer>
+        <developer>
+            <name>Richard Davis</name>
+            <email>crashvb[skip this] at gmail.com</email>
         </developer>
     </developers>
     <licenses>
@@ -31,10 +35,10 @@
         </license>
     </licenses>
     <properties>
-        <chromedriver.version>2.34</chromedriver.version>
-        <chromedriver.win32.md5>c97886e3d08531e7b65a368ef169b46e</chromedriver.win32.md5>
-	    <chromedriver.mac64.md5>5a8905f921bd7ecc49ccf45cb0073ea7</chromedriver.mac64.md5>
-        <chromedriver.linux64.md5>5cb836b6e1842e3fc6abb34d00d3ad68</chromedriver.linux64.md5>
+        <chromedriver.version>2.35</chromedriver.version>
+        <chromedriver.win32.md5>de52d0a610fb97fadc02301bc705c12b</chromedriver.win32.md5>
+        <chromedriver.mac64.md5>720f6f8ab16dd3fcc0d5928402ac9f92</chromedriver.mac64.md5>
+        <chromedriver.linux64.md5>e6d0298d3e1ed23f6639805d13ac2ae4</chromedriver.linux64.md5>
     </properties>
     <build>
         <plugins>
