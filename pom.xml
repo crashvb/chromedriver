@@ -35,10 +35,10 @@
         </license>
     </licenses>
     <properties>
-        <chromedriver.version>2.42</chromedriver.version>
-        <chromedriver.linux64.md5>acfcc29fb03df9e913ef4c360a121ad1</chromedriver.linux64.md5>
-        <chromedriver.mac64.md5>3fc0e4a97cbf2c8c2a9b824d95e25351</chromedriver.mac64.md5>
-        <chromedriver.win32.md5>28d91b31311146250e7ef1afbcd6d026</chromedriver.win32.md5>
+        <chromedriver.version>2.43</chromedriver.version>
+        <chromedriver.linux64.md5>1a67148288f4320e5125649f66e02962</chromedriver.linux64.md5>
+        <chromedriver.mac64.md5>249108ab937a3bf8ae8fd22366b1c208</chromedriver.mac64.md5>
+        <chromedriver.win32.md5>d238c157263ec7f668e0ea045f29f1b7</chromedriver.win32.md5>
     </properties>
     <build>
         <plugins>
